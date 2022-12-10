@@ -1,0 +1,146 @@
+body{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    margin: 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(62, 63, 63);
+    height: 50px;
+    position: sticky;
+    top: 0px;
+}
+#leftnavbar{
+    font-size: 20px;
+    display: flex;   
+    align-items: center; 
+}
+#leftnavbar div{
+    font-size: 25px;
+    margin-left: 15px;
+}
+#leftnavbar a{
+    color:  white;
+    text-decoration: none;
+    margin-left: 35px;
+}
+#leftnavbar a:hover{
+    color:  rgb(201, 201, 201)
+}
+#rightnavbar{
+    margin-right: 5px;
+}
+#rightnavbar input{
+    font-family: 'Baloo 2', cursive;    
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+
+.container{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+#welcometitle{
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+#inputcontainer{
+    color:  black;
+    border: 2px solid rgb(238, 237, 237);
+    width: 800px;
+    margin-left: 400px;
+    margin-top: 15px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+#addnote{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid red; */
+    justify-content: space-evenly;
+    height: 300px;
+}
+#addnote button{
+    margin-top: 30px;
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(3, 86, 211);
+    border: 2px solid rgb(0, 22, 150);
+    border-radius: 5px;
+    color:  white;
+    cursor: pointer;
+    
+}
+#addnote textarea{
+    border: 2px solid rgb(212, 211, 211);
+    width: 770px;
+    height: 110px;
+    align-self: center;
+}
+
+#outputhead{
+    color: black;
+    font-size: 30px;
+    margin-left: 400px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+#mynotes{
+    border: 2px solid rgb(211, 210, 210);
+    border-radius: 5px;    
+    width: 200px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.box{
+    color: black;
+    margin-top: 0px;
+}
+#mynotes button{
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(3, 86, 211);
+    border: 2px solid rgb(0, 22, 150);
+    border-radius: 5px;
+    color:  white;
+    cursor: pointer;
+}
+.cardcontainer{
+    color: black;
+    border: 2px solid rgb(216, 216, 216);
+    padding: 0px 10px;
+    width: 200px;
+    height: fit-content;
+}
+#outputbox{
+    margin-left: 400px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 1.5rem;
+}
+.cardcontainer button{
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(3, 86, 211);
+    border: 2px solid rgb(0, 22, 150);
+    border-radius: 5px;
+    color:  white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
